@@ -1,15 +1,11 @@
-const assert = require('assert');
 const { translateImageCoordinatesToTeletext } = require('../dist/index');
 
-describe('translateImageCoordinatesToTeletext', function() {
-	it('should return an array', function() {
-		assert(Array.isArray(translateImageCoordinatesToTeletext(10, 10)));
+describe('translateImageCoordinatesToTeletext', () => {
+	it('should return an array', () => {
+		expect(Array.isArray(translateImageCoordinatesToTeletext(10, 10))).toBe(true);
 	});
 
-	it('(2, 3) => [1, 1]', function() {
-		assert.deepStrictEqual(translateImageCoordinatesToTeletext(2, 3), [
-			1,
-			1,
-		]);
+	it('(2, 3) => [1, 1]', () => {
+		expect(translateImageCoordinatesToTeletext(2, 3)).toEqual([1, 1]);
 	});
 });

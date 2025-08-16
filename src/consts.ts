@@ -10,4 +10,4 @@ export const TELETEXT_EMPTY_CHARACTER = 0x20;
 
 export const TELETEXT_CHARACTER_WIDTH = 2;
 export const TELETEXT_CHARACTER_HEIGHT = 3;
-export const NUMBER_OF_PNG_CHANNELS = 4;
+export const NUMBER_OF_PNG_CHANNELS = 4; 
