@@ -5,4 +5,9 @@
 .nyc_output
 .prettierrc
 poes.gif
-README.md
+src/
+test/
+coverage/
+jest.config.js
+tsconfig.json
+.git*
